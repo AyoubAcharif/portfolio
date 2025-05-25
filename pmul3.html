@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio Ayoub Acharif</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <header id="header" class="header d-flex flex-column justify-content-center">
+
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a>
+                </li>
+                <li><a href="index.html#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+                <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a>
+                </li>
+                <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i><span>Projects</span></a></li>
+                <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container my-5">
+        <h1 class="mb-4">Remote Door Control and Monitoring System</h1>
+        <p>
+            As part of the Multidisciplinary Project, including IoT, mobile development, project management, and
+            English, I had to design a solution to an everyday problem or a potential customer request. I chose to solve
+            a personal problem: preventing my little sisters from entering my bedroom whenever they wanted to. So, I
+            decided to set up a smart lock system with RFID access and remote unlocking.
+        </p>
+        <p>
+            My embedded system was composed of an Arduino to manage components such as the RFID reader, I2C LCD screen,
+            relay, and electronic lock. I also included an ESP8266 that transmitted the information to a web backend
+            server via HTTP requests. I encountered many problems when establishing communication between the two
+            microcontrollers, which took me several days of testing and research.
+        </p>
+        <p>
+            I stored all the data (state of the door, timestamp, unique ID) in a MySQL database deployed on a Raspberry
+            Pi using Docker, with a management interface via phpMyAdmin.
+        </p>
+        <p>
+            The mobile application was developed using React Native and the React Native Paper library. It allows users
+            to authenticate, monitor the state of the door in real time, unlock the door remotely, and display the
+            access history.
+        </p>
+        <p>
+            This project taught me how to work on a complete system that includes the mobile application, the embedded
+            system, and the database. I used React Native, Arduino, ESP8266, and MySQL. Each part had its own
+            challenges, such as connection and compatibility issues. I learned to plan, test, and adapt, even if I
+            didn't always follow the organisation perfectly. Despite some difficulties, this project enabled me to
+            improve my IT skills, become more autonomous, and better manage unexpected problems.
+        </p>
+    </div>
+
+    <footer id="footer1" class="footer position-relative light-background">
+        <div class="container">
+            <h3 class="sitename">Acharif Ayoub</h3>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://github.com/AyoubAcharif"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayoub-acharif/"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
